@@ -1,0 +1,11 @@
+              precision    recall  f1-score   support
+
+   badminton       0.24      0.28      0.26        46
+       padel       0.38      0.16      0.23        56
+      squash       0.29      0.45      0.35        44
+table_tennis       0.35      0.30      0.32        50
+      tennis       0.50      0.57      0.53        44
+
+    accuracy                           0.34       240
+   macro avg       0.35      0.35      0.34       240
+weighted avg       0.35      0.34      0.33       240

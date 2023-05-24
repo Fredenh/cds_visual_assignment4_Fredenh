@@ -37,6 +37,7 @@ def main():
 
     # Specifying the output folder path
     outpath = os.path.join(".", "in", out_folder)
+    os.makedirs(outpath, exist_ok=True)
 
     # Calculating the number of pages needed to reach 240 images
     num_pages = (total_images + per_page - 1) // per_page
